@@ -21,6 +21,7 @@ def add_note():
                     window.destroy()
 
     global note_color
+    
     choose_color()
     color = note_color[1]
     note_window = Toplevel()
